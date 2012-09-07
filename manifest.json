@@ -1,0 +1,13 @@
+{
+	"name" : "Open in Internet Explorer",
+	"version" : "1.1",
+	"manifest_version" : 2,
+	"description" : "Opens a web page in Internet Explorer inside Windows virtual machine powered by Parallels.",
+	"browser_action" : {
+		"default_icon" : "ie.png",
+		"default_title" : "Open this page in Internet Explorer"
+	},
+	"background" : {
+		"scripts" : [ "background.js" ]
+	}
+}
